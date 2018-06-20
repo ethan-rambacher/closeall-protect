@@ -15,6 +15,13 @@
 		"mac": "Command+Shift+W"
             },
             "description": "Trigger warning"
-        }
+        },
+	"trigger-warning-2": {
+	    "suggested_key": {
+		"default": "Ctrl+Shift+Q",
+		"mac": "Command+Shift+W"
+	    },
+	    "description": "Trigger warning 2"
+	}
     }
 }
