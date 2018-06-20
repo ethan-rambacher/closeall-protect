@@ -1,0 +1,7 @@
+chrome.commands.onCommand.addListener(function(command) {
+    console.log("callback called");
+    if (command == "trigger-warning"){
+	console.log('Command:', command);
+	confirm("Do you want to close all tabs?");
+    }
+});

@@ -1,0 +1,20 @@
+{
+    "name": "CloseAll Protect",
+    "version": "1.0",
+    "description": "Protect your tabs when you hit Ctrl-Shift-W",
+    "manifest_version": 2,
+    "background": {
+	"scripts": ["background.js"],
+	"persistent": false
+    },
+    "permissions": ["commands"],
+    "commands": {
+        "trigger-warning": {
+            "suggested_key": {
+		"default": "Ctrl+Shift+W",
+		"mac": "Command+Shift+W"
+            },
+            "description": "Trigger warning"
+        }
+    }
+}
